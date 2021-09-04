@@ -16,9 +16,4 @@ class MainActivity : AppCompatActivity() {
             Analytics::class.java, Crashes::class.java
         )
     }
-
-    override fun onResume() {
-       super.onResume()
-    }
-
 }
